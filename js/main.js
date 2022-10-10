@@ -32,3 +32,13 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 } 
+
+$("#videoFS, body").vegas({
+  lps: [
+      { src: "/img/lp1.jpg" },
+      { src: "/img/lp2.jpg" },
+      { src: "/img/lp3.jpg" },
+      { src: "/img/lp4.jpg" },
+      { src: "/img/lp5.webp" }
+  ]
+});
