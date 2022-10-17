@@ -15,6 +15,7 @@ html {
   color: rgb(255, 255, 255);
   font-size: 1em;
   line-height: 1.4;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -66,14 +67,37 @@ body {
 .hero {
   position: absolute;
   top: 30%;
-  font-size: xx-large;
-  margin-left: 5rem;
+  font-size: x-large;
   color: #400822;
   background-color: rgba(255, 255, 255, 0.5);
   padding: 1rem;
   padding-top: 0rem;
   border-radius: 25px;
-  
+  max-width: fit-content;
+  margin: 0;
+  margin-left: 4rem;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@media (max-width: 768px) {
+  .hero {
+    top: 30%;    
+    font-size: x-large;
+    color: #400808;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    max-width: fit-content;
+    text-align: center;
+    margin: 0;
+    margin-left: 4rem;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
 }
 
 .logo {
@@ -110,15 +134,18 @@ nav li a:hover {
 }
 
 nav {
+  position:absolute;
+  z-index: 1000;
   display: block;
   background-color: #8C1642;
   border-bottom: 2px solid white;
-  opacity: 0.9;
   padding: 30px 0 30px 0;
+  opacity: 0.9;
 }
 
 .sticky {
   position: fixed;
+  z-index: 1000;
   top: 0;
   width: 100%;
 }
