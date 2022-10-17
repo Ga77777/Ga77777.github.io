@@ -150,6 +150,11 @@ nav {
   width: 100%;
 }
 
+#noticias #fixture #about #estadios #sorteo {
+  padding-top: 300px;
+  margin-top: -300px;
+}
+
 
 /*
  * Remove text-shadow in selection highlight:
