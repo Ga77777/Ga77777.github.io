@@ -154,6 +154,21 @@ nav {
   margin: 50px;
 }
 
+.estadioCard {
+  width: 22rem;
+  margin-bottom: 1rem;
+}
+
+.estadioDescr {
+  position: relative;
+  font-size: 1.5rem;
+  width: 22rem;
+  color: #400822;
+  background-color: rgba(255, 255, 255, 0.7);
+  top: -50px;
+  text-align: center;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
