@@ -150,6 +150,10 @@ nav {
   width: 100%;
 }
 
+.equipoP {
+  margin: 50px;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
