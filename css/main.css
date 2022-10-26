@@ -68,32 +68,25 @@ body {
   background-size: cover;
   height: 100vh;
   width: 100vw;
-}
-
-#myVideo {
-  position: fixed;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero {
-  position: absolute;
-  top: 30%;
   font-size: x-large;
   color: #400822;
   background-color: rgba(255, 255, 255, 0.5);
-  padding: 1rem;
-  padding-top: 0rem;
+  padding: 3rem;
   border-radius: 25px;
   max-width: fit-content;
-  margin: 0;
-  margin-left: 4rem;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  height: fit-content;
+  display: inline-block;
+  margin-right: 10rem;
+}
+
+#trailerYoutube {
+  display: inline-block;
 }
 
 @media (max-width: 768px) {
