@@ -36,14 +36,14 @@ body {
 @media (max-width: 768px) {
   .container {
     max-width: 720px;
-    padding: 0;
+    padding: 0 20px;
   }
 }
 
 @media (max-width: 480px) {
   .container {
     max-width: 320px;
-    padding: 0;
+    padding: 0 20px;
   }
 }
 
@@ -208,8 +208,7 @@ nav {
 
 .estadioCard {
   width: 18rem;
-  margin-bottom: 1rem;
-  display: inline-block;
+  margin: auto;
 }
 
 .estadioDescr {
@@ -218,13 +217,25 @@ nav {
   width: 18rem;
   color: #400822;
   background-color: rgb(255, 255, 255);
-  top: -50px;
+  top: -25px;
   text-align: center;
 }
 
-figure .estadioCard {
-  width: fit-content;
+.section2 figure {
   display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .section2 figure {
+    margin: auto;
+
+  }
+}
+
+@media (max-width: 480px) {
+  .section2 figure {
+    margin: auto;
+  }
 }
 
 
