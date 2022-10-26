@@ -29,8 +29,20 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 1200px;
   padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    max-width: 320px;
+  }
 }
 
 .section {
@@ -129,6 +141,44 @@ nav li a {
   text-decoration: none;
 }
 
+@media (max-width: 768px) {
+
+  .logo {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height: 100px;
+    visibility: hidden;
+  }
+
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 6px;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .logo {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height: 100px;
+    visibility: hidden;
+  }
+
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 6px;
+    text-decoration: none;
+  }
+}
+
 nav li a:hover {
   background-color: #400822;
 }
@@ -155,18 +205,19 @@ nav {
 }
 
 .estadioCard {
-  width: 22rem;
+  width: 18rem;
   margin-bottom: 1rem;
 }
 
 .estadioDescr {
   position: relative;
   font-size: 1.5rem;
-  width: 22rem;
+  width: 18rem;
   color: #400822;
   background-color: rgba(255, 255, 255, 0.7);
   top: -50px;
   text-align: center;
+  
 }
 
 /*
