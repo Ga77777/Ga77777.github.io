@@ -222,7 +222,7 @@ nav {
   text-align: center;
 }
 
-figure {
+figure .estadioCard {
   width: fit-content;
   display: inline-block;
 }
