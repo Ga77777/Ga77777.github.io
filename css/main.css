@@ -192,6 +192,7 @@ nav li a {
 
   nav ul li {
     font-size: 0.7rem;
+    margin-right: 0;
   }
   
   nav li a {
@@ -201,6 +202,18 @@ nav li a {
 
 nav li a:hover {
   background-color: #400822;
+}
+
+#noticias, #grupos, #about, #estadios, #sorteo {
+  position: absolute;
+  top: -150px;
+}
+
+@media (max-width: 838px) {
+  #noticias, #grupos, #about, #estadios, #sorteo {
+    position: relative;
+    top: -90px;
+  }
 }
 
 /* GRUPOS */
@@ -306,7 +319,6 @@ nav li a:hover {
   bottom: 6%;
   left: 45%;
 }
-
 
 /*
  * Remove text-shadow in selection highlight:
