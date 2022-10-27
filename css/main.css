@@ -137,14 +137,16 @@ nav {
 
 nav ul {
   list-style-type: none;
+  display: flex;
   margin: 0;
   margin-right: 5rem;
   padding: 0;
   overflow: hidden;
+  justify-content: right;
 }
 
 nav li {
-  display: inline;
+  display: list-item;
   float: right;
   margin: 0;
   padding: 0;
@@ -164,8 +166,16 @@ nav li a {
     visibility: hidden;
   }
 
-  nav li { 
-    font-size: 0.8rem;
+  nav ul {
+    list-style-type:none;
+    display:flex;
+    justify-content: center;
+    margin-right: 0;
+  }
+
+  nav ul li { 
+    display: list-item;
+    font-size: 1rem;
     padding: 0 5px 0 5px;
     margin: 0;
   }
@@ -179,19 +189,13 @@ nav li a {
   nav{
     padding: 10px 0;
   }
-  
-  nav li {
-    margin: 0;
-    padding: 0 5px 0 5px;
-    font-size: 0.8rem;
-  }
 
+  nav ul li {
+    font-size: 0.7rem;
+  }
+  
   nav li a {
-    display: block;
-    color: white;
-    text-align: center;
     padding: 8px 3px;
-    text-decoration: none;
   }
 }
 
