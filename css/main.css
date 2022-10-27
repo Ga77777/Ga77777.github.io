@@ -85,9 +85,7 @@ body {
   margin-right: 10rem;
 }
 
-#trailerYoutube {
-  display: inline-block;
-}
+
 
 @media (max-width: 768px) {
   .hero {
@@ -104,6 +102,17 @@ body {
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+  }
+}
+
+#trailerYoutube {
+  display: inline-block;
+}
+
+
+@media (max-width: 768px) {
+  #trailerYoutube {
+    display: none;
   }
 }
 
