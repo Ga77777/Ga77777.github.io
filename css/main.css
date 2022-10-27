@@ -137,13 +137,14 @@ nav {
 .logo {
   position: absolute;
   top: 5%;
-  left: 5%;
+  left: 12%;
   height: 100px;
 }
 
 nav ul {
   list-style-type: none;
   margin: 0;
+  margin-right: 5rem;
   padding: 0;
   overflow: hidden;
 }
