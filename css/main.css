@@ -83,6 +83,7 @@ body {
   height: fit-content;
   display: inline-block;
   margin-right: 10rem;
+  margin: 7rem;
 }
 
 
@@ -110,7 +111,7 @@ body {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
   #trailerYoutube {
     display: none;
   }
@@ -159,7 +160,7 @@ nav li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 1px 2px;
+    padding: 14px 28px;
     text-decoration: none;
   }
 }
@@ -178,7 +179,7 @@ nav li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 5px 6px;
+    padding: 1px 10px 0px 0px;
     text-decoration: none;
   }
 }
@@ -237,6 +238,38 @@ nav {
 @media (max-width: 480px) {
   .section2 figure {
     margin: auto;
+  }
+}
+
+
+
+@media (max-width: 1100px) {
+
+  .flipdown {
+    width: 450px;
+    height: 97px;
+    
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  .flipdown {
+    width: 400px;
+    height: 86px;
+    margin: auto;
+    
+  }
+}
+
+@media (max-width: 480px) {
+
+  .flipdown {
+    width: 300px;
+    height: 65px;    
+    margin: 0;
+    padding: 0;
   }
 }
 
