@@ -21,7 +21,6 @@
   <link rel="stylesheet" target="_blank" href="css/main.css">
   <link rel="stylesheet" target="_blank" href="css/flipdown.css">
   <link rel="stylesheet" target="_blank" href="https://fonts.googleapis.com/css2?family=Roboto">
-  <link rel="stylesheet" target="_blank" href="css/vegas.css">
 
   <script type="text/javascript" src="https://kit.fontawesome.com/b666305a31.js" crossorigin="anonymous"></script>
  
@@ -29,19 +28,6 @@
   <script src="js/formConcurso.js"></script>
     
   <meta name="theme-color" content="#fafafa">
-
-  <script>
-    $("#videoFS, body").vegas({
-       lps: [
-      { src: "/img/lp1.jpg" },
-      { src: "/img/lp2.jpg" },
-      { src: "/img/lp3.jpg" },
-      { src: "/img/lp4.jpg" },
-      { src: "/img/lp5.webp" }
-  ]
-});
-  </script>
-
 </head>
 
 <body>
@@ -49,7 +35,6 @@
   <!-- Add your site or application content here -->
 
   <div class="landingPage">
-    <span id="videoFS"></span>
   <nav class="sticky">
     <ul>
       <li><img src="img/logo.png" alt="logo" class="logo"></li>
@@ -69,6 +54,9 @@
   </div>
 
   <iframe id="trailerYoutube" width="656" height="369" src="https://www.youtube-nocookie.com/embed/vyDjFVZgJoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  <a id="downArrowLink" href="#noticias"><i class="fa-solid fa-arrow-down fa-bounce fa-2xl" id="downArrow"></i></a>
+
 
 </div>
 <div class="section">
@@ -158,27 +146,13 @@
     <figure><a target="_blank" href="https://www.fifa.com/fifaplus/es/articles/al-thumama-stadium-es"><img src="img/altuhmama.avif" class="estadioCard"></a><figcaption class="estadioDescr">Estadio al Thumama</figcaption class="estadioDescr"></figure></a>
     <figure><a target="_blank" href="https://www.fifa.com/fifaplus/es/articles/education-city-stadium-es"><img src="img/ciudadEducacion.avif" class="estadioCard"></a><figcaption class="estadioDescr">Estadio Ciudad de la Educación</figcaption class="estadioDescr"></figure></a>
     <figure><a target="_blank" href="https://www.fifa.com/fifaplus/es/articles/khalifa-international-stadium-es"><img src="img/khalifa.avif" class="estadioCard"></a><figcaption class="estadioDescr">Estadio Internacional de Khalifa</figcaption class="estadioDescr"></figure></a>
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-
-    </div>
+  </div>
 </div>
 
 <div class="section">
   <div class="container">
     <p style="position:relative;"><a id="sorteo" style="position:absolute; top:-150px;"></a></p>
-    <h1>Sorteo</h1><hr>
-
-    
-    
+    <h1>Sorteo</h1><hr>    
     
     
 <!-- Formulario de inscripción  --> 
@@ -234,9 +208,7 @@
               <option value="21">Santa Fe</option>
               <option value="22">Santiago del Estero</option>
               <option value="23">Tierra del Fuego</option>
-              <option value="24">Tucumán</option>
-             
-             
+              <option value="24">Tucumán</option>             
 					  </select>
            </div>
 			 </div>
@@ -269,10 +241,6 @@
         </div>
     </div>
 </section>
-
-    
-    
-    
   </div>
 </div>
 
