@@ -19,7 +19,7 @@ function validar() {
 	txt_input  = document.getElementById('apellidoInput').value;		// $('#txtAntecedentes').val();
 	expr_input = /^[A-Za-z \/ÑÁÉÍÓÚñáéíóúÜü']{2,30}$/;
 	if (txt_input.length < 2) {
-		alert('( ! ) ATENCIÓN:\n\nIngrese su APELLIDO');
+		alert('( ! ) ATENCIÓN:\n\nPor favor, ingrese su apellido(s).');
 		frmConcurso.apellidoInput.focus()
 		return (false);
 	} else if (!expr_input.test(txt_input)) {
@@ -33,7 +33,7 @@ function validar() {
 	txt_input  = document.getElementById('nombresInput').value;
 	expr_input = /^[A-Za-z \/ÑÁÉÍÓÚñáéíóúÜü']{2,30}$/;
 	if (txt_input.length < 2) {
-		alert('( ! ) ATENCIÓN:\n\nIngrese su NOMBRE');
+		alert('( ! ) ATENCIÓN:\n\nIngrese su nombre(s)');
 		frmConcurso.nombresInput.focus()
 		return (false);
 	} else if (!expr_input.test(txt_input)) {
@@ -46,7 +46,7 @@ function validar() {
 	// Validar DNI
 	txt_input = parseInt(document.getElementById('dniInput').value); //($('#dniInput').val());
 	if (isNaN(txt_input) || (txt_input < 1000000) || (txt_input > 50000000))  {
-		alert('( ! ) ATENCIÓN:\n\nIngrese un \"DNI\" válido.');
+		alert('( ! ) ATENCIÓN:\n\nPor favor, ingrese un \"DNI\" válido.');
 		frmConcurso.dniInput.focus()
 		return (false);
 	}
@@ -69,7 +69,7 @@ function validar() {
 		frmConcurso.correoInput.focus()
 		return (false);
 	} else if (!expr_input.test(txt_input)) {
-		alert('( ! ) ATENCIÓN:\n\nIngrese un \"CORREO ELECTRÓNICO\" válido.');
+		alert('( ! ) ATENCIÓN:\n\nPor favor, ingrese un \"CORREO ELECTRÓNICO\" válido.');
 		frmConcurso.correoInput.focus()
 		return (false);
 	}
@@ -96,7 +96,9 @@ function validar() {
 		return (false);
 	}
 	
+	alert("¡Te has registrado al concurso correctamente!");
 
+	document.getElementById('frmConcurso').style.display = 'none';
 	return (true);
 	
 }
