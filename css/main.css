@@ -74,7 +74,7 @@ body {
   align-items: center;
   animation-name: backgroundImg;
   animation-duration: 20s;
-  animation-timing-function: ease-in;
+  animation-timing-function: linear;  
 }
 
 .hero {
@@ -218,7 +218,11 @@ nav li a {
 }
 
 nav li a:hover {
-  background-color: #400822;
+  background-color: #400822 ;
+}
+
+#logoLink:hover {
+  background-color: #8C1642;
 }
 
 #noticias, #grupos, #about, #estadios, #sorteo {
