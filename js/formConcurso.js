@@ -96,7 +96,7 @@ function validar() {
 		return (false);
 	}
 	
-	alert("¡Te has registrado al concurso correctamente!");
+	//alert("¡Te has registrado al concurso correctamente!");
 
 	document.getElementById('frmConcurso').style.display = 'none';
 	return (true);
