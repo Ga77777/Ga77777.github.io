@@ -72,6 +72,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  animation-name: backgroundImg;
+  animation-duration: 20s;
+  animation-timing-function: ease-in;
 }
 
 .hero {
@@ -107,6 +110,20 @@ body {
     display: none;
   }
 }
+
+/* BACKGROUND CHANGES */
+
+@keyframes backgroundImg {
+  0%   {background-image: url('../img/lp1.jpg');}
+  20%  {background-image: url('../img/lp2.jpg');}
+  40%  {background-image: url('../img/lp3.jpg');}
+  60%  {background-image: url('../img/lp4.jpg');}
+  80%  {background-image: url('../img/lp5.jpg');}
+  100% {background-image: url('../img/lp6.jpg');}
+}
+
+
+
 
 /* NAV STYLES */
 

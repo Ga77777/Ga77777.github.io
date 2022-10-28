@@ -14,31 +14,3 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log('The countdown has ended!');
       });
   });
-  
-  // When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
-
-// Get the navbar
-var navbar = document.getElementById("navbar");
-
-// Get the offset position of the navbar
-var sticky = navbar.offsetTop;
-
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-} 
-
-$("#videoFS, body").vegas({
-  lps: [
-      { src: "/img/lp1.jpg" },
-      { src: "/img/lp2.jpg" },
-      { src: "/img/lp3.jpg" },
-      { src: "/img/lp4.jpg" },
-      { src: "/img/lp5.webp" }
-  ]
-});
