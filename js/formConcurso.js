@@ -6,14 +6,7 @@ function validar() {
 	var len_input;
 	var expr_input;
 	
-	
-	/*apellidoInput
-	nombresInput
-	dniInput
-	selProvincia
-	correoInput
-	telInput*/
-	
+		
 	
 	// Validar APELLIDO
 	txt_input  = document.getElementById('apellidoInput').value;		// $('#txtAntecedentes').val();
@@ -98,7 +91,7 @@ function validar() {
 	
 	//alert("¡Te has registrado al concurso correctamente!");
 
-	document.getElementById('frmConcurso').style.display = 'none';
+	//document.getElementById('frmConcurso').style.display = 'none';
 	return (true);
 	
 }
